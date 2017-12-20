@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LOC112
+D Linear Optocoupler
+K DC Linear Optocoupler
+F http://www.ixysic.com/home/pdfs.nsf/www/LOC112.pdf/$file/LOC112.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX1811
+D USB-Powered Li+ Charger
+K Lithium Ion Charger
+F https://datasheets.maximintegrated.com/en/ds/MAX1811.pdf
+$ENDCMP
+#
+#End Doc Library

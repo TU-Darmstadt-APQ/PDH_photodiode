@@ -1,0 +1,223 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5541
+D Voltage Output, Unbuffered 16-Bit DAC
+K DAC, 16-bit, SPI
+$ENDCMP
+#
+$CMP AD5541A
+D Voltage Output, Unbuffered 16-Bit DAC
+K DAC, 16-bit, SPI
+$ENDCMP
+#
+$CMP AD5762R
+D Complete Dual, 16-Bit, High Accuracy,Serial Input, Bipolar Voltage Output DAC
+K DAC, Dual, 16-bit, bipolar, SPI
+$ENDCMP
+#
+$CMP AD5781
+D True 18-Bit, Voltage Output DAC, ±0.5 LSB INL, ±0.5 LSB DNL
+K DAC, 18-bit, SPI
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5781.pdf
+$ENDCMP
+#
+$CMP AD590
+D 2-Terminal IC Temperature Transducer
+K Temperature
+$ENDCMP
+#
+$CMP AD797
+D Ultralow Distortion, Ultralow Noise Op Amp
+K Low Noise, Precision, Low Distortion
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
+$ENDCMP
+#
+$CMP AD8021
+D Low Noise, High Speed Amplifier for 16-Bit Systems
+K Low Noise
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8021.pdf
+$ENDCMP
+#
+$CMP AD8022
+D Dual High Speed, Low Noise Op Amp
+K Low Noise, Dual Opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8022.pdf
+$ENDCMP
+#
+$CMP AD8222
+D Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier, Dual
+K Instrumentation Amplifier, dual
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8222.pdf
+$ENDCMP
+#
+$CMP AD8226
+D Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier
+K Instrumentation Amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8226.pdf
+$ENDCMP
+#
+$CMP AD8421
+D 3 nV/√Hz, Low Power, Instrumentation Amplifier
+K Low Noise, Instrumentation Amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8421.pdf
+$ENDCMP
+#
+$CMP AD8429
+D 1 nV/√Hz Low Noise Instrumentation Amplifier
+K Low noise, Instrumentation amplifier
+$ENDCMP
+#
+$CMP AD8620
+D Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers
+K Low Noise, Dual Opamp, Precision
+$ENDCMP
+#
+$CMP AD8671
+D Precision, Very Low Noise, Low Input, Bias Current Operational Amplifiers
+K Low Noise, Precision
+$ENDCMP
+#
+$CMP AD8672
+D Dual, Precision, Very Low Noise, Low Input Bias Current Operational Amplifier
+K Low Noise, Dual Opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8671_8672_8674.pdf
+$ENDCMP
+#
+$CMP AD8674
+D Precision, Very Low Noise, Low Input, Bias Current Operational Amplifier
+K Low Noise, Quad Opamp
+$ENDCMP
+#
+$CMP AD8675
+D Ultraprecision, 36 V, 2.8 nV/√Hz, Rail-to-Rail Output Op Amp
+K Low Noise, Rail-to-Rail, Precision
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8675.pdf
+$ENDCMP
+#
+$CMP AD8676
+D Ultraprecision, 36 V, 2.8 nV/√Hz, Dual Rail-to-Rail Output Op Amp
+K Low Noise, Dual Op Amp, Rail-to-Rail, Precision
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf
+$ENDCMP
+#
+$CMP AD8694
+D Low Cost, Low Noise, CMOS, Rail-to-Rail Output Operational Amplifier
+K Low Noise, Quad Amp, Rail-to-Rail, Low Cost
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8691_8692_8694.pdf
+$ENDCMP
+#
+$CMP ADA4000-1
+D Low Cost, Precision JFET, Input Operational Amplifiers
+K Precision, JFET, Opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4000-1_4000-2_4000-4.pdf
+$ENDCMP
+#
+$CMP ADA4000-1_(TSOT)
+D Low Cost, Precision JFET, Input Operational Amplifiers
+K Precision, JFET, Opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4000-1_4000-2_4000-4.pdf
+$ENDCMP
+#
+$CMP ADA4077-1
+D 4 MHz, 7 nV/√Hz, Low Offset and Drift, High Precision Amplifiers
+K Precision
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4077-1_4077-2_4077-4.pdf
+$ENDCMP
+#
+$CMP ADA4077-4
+D 4 MHz, 7 nV/√Hz, Low Offset and Drift, High Precision Amplifiers
+K Precision, Quad
+$ENDCMP
+#
+$CMP ADA4500-2
+D 10 MHz, 14.5 nV/√Hz, Rail-to-Rail I/O, Zero Input Crossover Distortion Amplifier
+K Dual Op Amp, Rail-to-Rail, Precision, 3.3V
+$ENDCMP
+#
+$CMP ADA4522-4
+D 55 V, EMI Enhanced, Zero Drift, Ultralow Noise, Rail-to-Rail Output Operational Amplifiers
+K Low Noise, Quad Amp, Rail-to-Rail, Auto-Zero, Chopper
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4522-1_4522-2_4522-4.pdf
+$ENDCMP
+#
+$CMP ADA4841
+D Low Power, Low Noise and Distortion, Rail-to-Rail Output Amplifier
+K Low Noise, Rail-to-Rail, Low Power
+$ENDCMP
+#
+$CMP ADA4841-2
+D Low Power, Low Noise and Distortion, Dual, Rail-to-Rail Output Amplifier
+K Low Noise, Rail-to-Rail, Low Power, Dual
+$ENDCMP
+#
+$CMP ADA4870
+D High Speed, High Voltage, 1 A Output Drive Amplifier
+K High Speed, high current
+$ENDCMP
+#
+$CMP ADA4898-2
+D High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp
+K Low Noise, Dual
+$ENDCMP
+#
+$CMP ADG1334
+D ±15 V/+12 V Quad SPDT Switches
+K analog switch, parallel
+$ENDCMP
+#
+$CMP ADG1414
+D 9.5 Ω RON, ±15 V/+12 V/±5 V iCMOS, Serially-Controlled Octal SPST Switches
+K SPST, dual supply, analog switch, SPI
+$ENDCMP
+#
+$CMP ADG5412BF
+D ±15 V/+12 V Quad SPDT Switches
+K analog switch, parallel
+$ENDCMP
+#
+$CMP ADP3338
+D High Accuracy, Ultralow IQ, 1 A, anyCAP® Low Dropout Regulator
+K Adjustable Voltage Regulator 1A Positive
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP3338.pdf
+$ENDCMP
+#
+$CMP ADP7118
+D 20 V, 200 mA, Low Noise, LDO Linear Regulator
+K LDO, low noise
+$ENDCMP
+#
+$CMP ADR01
+D Ultracompact, Precision 10.0 V Reference
+K Voltage reference, Buffered
+$ENDCMP
+#
+$CMP ADR4550
+D Ultralow Noise, High Accuracy, Voltage References, 5V
+K Voltage reference, Buffered, Series
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADuM141D
+D 3.0 kV RMS/3.75 kV RMS, Quad Digital Isolators
+K Digital isolator, Quad, 3:1
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM140D_140E_141D_141E_142D_142E.pdf
+$ENDCMP
+#
+$CMP ADuM7241
+D 1 kV, Dual Channel Digital Isolator
+K Digital Isolator, Dual, 1:1
+F http://www.mouser.com/ds/2/609/ADuM7240_7241-879078.pdf
+$ENDCMP
+#
+$CMP OP07
+D Precision Operational Amplifier
+K Low noise, Low drift
+$ENDCMP
+#
+$CMP OP467
+D Quad Precision, High Speed Operational Amplifier
+K Quad, precision, op amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP467.pdf
+$ENDCMP
+#
+#End Doc Library

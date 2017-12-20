@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP-12
+D ESP8266 ESP-12 module, 16 pins, 2mm, PCB antenna
+K MODULE ESP8266 ESP-8266
+F http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family
+$ENDCMP
+#
+#End Doc Library
