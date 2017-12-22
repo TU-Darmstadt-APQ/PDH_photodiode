@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP SHT21
-D Humidity and Temperature Sensor IC
-K humidity temperature I²C
-F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Sensirion_Humidity_Sensors_SHT21_Datasheet_V4.pdf
-$ENDCMP
-#
-#End Doc Library

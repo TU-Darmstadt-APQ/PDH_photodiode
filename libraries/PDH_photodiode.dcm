@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP S9055
-D Silicon PIN Photodiode with Daylight Blocking Filter
-K opto PIN photodiode IR
-F http://www.osram-os.com/Graphics/XPic0/00209685_0.pdf/SFH%20225%20FA.pdf
-$ENDCMP
-#
-#End Doc Library
