@@ -1,0 +1,79 @@
+Circuit: * C:\Users\Tilman Preuschoff\OneDrive\Dokumente\PDH\PD\spice\LTC6268-10\PDH_photodiode.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.0412
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 1.0132
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 1.00827
+vernier = 0.00260417
+vernier = 0.00130208
+Gmin = 1.00515
+vernier = 0.000651042
+vernier = 0.000868055
+vernier = 0.000434028
+Gmin = 1.00434
+vernier = 0.000578703
+vernier = 0.000434027
+Gmin = 1.00339
+Singular matrix:  Check node u3:n013
+   Iteration No. 7
+Gmin = 0
+Singular matrix:  Check node u3:n013
+   Iteration No. 1
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Singular matrix:  Check node u3:n013
+   Iteration No. 7
+Source Step = 33.3333%
+Singular matrix:  Check node u3:n013
+   Iteration No. 1
+Singular matrix:  Check node u3:n013
+   Iteration No. 1
+Singular matrix:  Check node u3:n013
+   Iteration No. 1
+Singular matrix:  Check node u3:n013
+   Iteration No. 1
+Singular matrix:  Check node u3:n013
+   Iteration No. 1
+Singular matrix:  Check node u3:n013
+   Iteration No. 1
+Singular matrix:  Check node u3:n013
+   Iteration No. 1
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Singular matrix:  Check node u3:n013
+   Iteration No. 8
+Source stepping failed
+
+Pseudo Transient succeeded in finding the operating point at 327.686 ms.
+
+Date: Mon Feb 22 23:28:30 2021
+Total elapsed time: 0.147 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 5183
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 8
+matrix size = 16
+fillins = 22
+solver = Normal
+Matrix Compiler1: 1.97 KB object code size  2.5/2.2/[2.3]
+Matrix Compiler2: off  [1.8]/2.2/14.6
+

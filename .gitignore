@@ -1,21 +1,21 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.~*
 
-# Temporary files
-*.000
-*.bak
-*.bck
+# KiCAD Files #
+###############
+*.sch-bak
 *.kicad_pcb-bak
-*~
-_autosave-*
-*.tmp
-
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
-# Exported BOM files
+*.bak
 *.xml
-*.csv
+*-cache.lib
+*.tmp
+fp-info-cache
+_autosave-*
