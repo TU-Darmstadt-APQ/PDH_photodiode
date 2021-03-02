@@ -913,4 +913,6 @@ Wire Wire Line
 	4500 2800 4850 2800
 NoConn ~ 4600 2650
 NoConn ~ 7850 2750
+Text Notes 6300 900  0    60   ~ 0
+Use C1 (and R11) for \noptional low pass filtering.
 $EndSCHEMATC
