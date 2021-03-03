@@ -8,6 +8,10 @@ Wideband photodetector based on a PIN photodiode and a transimpedance amplifier 
 
 - Max. output : 2.5 V @high-Z / 1.25 V @50 Ω
 
+- DC sensitivity: ~7 V/mW @ 780 nm (see [Hamamatsu S9055-01](https://www.hamamatsu.com/resources/pdf/ssd/s9055_series_kpin1065e.pdf) for other wavelengths)
+
+- NEP: < 25 pW/Hz<sup>1/2</sup>  @ 780 nm (0.1 - 50 MHz: ~2.5 pW/Hz<sup>1/2</sup>)
+
 - TIA gain: 20 kΩ
 
 - AC gain: 10 - 25 (default: 10)
