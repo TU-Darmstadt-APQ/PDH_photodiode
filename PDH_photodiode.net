@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Tilman Preuschoff\\Documents\\GitHub\\PDH_photodiode\\PDH_photodiode.sch")
-    (date "25.02.2021 17:49:15")
+    (date "03.03.2021 23:58:51")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -60,7 +60,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 599D5F38))
     (comp (ref R3)
-      (value 10k)
+      (value 20k)
       (footprint footprints:R_0603_1608Metric_mod)
       (fields
         (field (name MFN) Susumu))
@@ -235,7 +235,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 6033DD64))
     (comp (ref R9)
-      (value 10)
+      (value 20)
       (footprint Resistor_SMD:R_0603_1608Metric)
       (fields
         (field (name MFN) Susumu))
@@ -243,7 +243,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 6033E42E))
     (comp (ref R10)
-      (value 200)
+      (value 180)
       (footprint Resistor_SMD:R_0603_1608Metric)
       (fields
         (field (name MFN) Susumu))
@@ -475,8 +475,8 @@
       (node (ref R9) (pin 1))
       (node (ref J2) (pin 2))
       (node (ref C6) (pin 1))
+      (node (ref U2) (pin 3))
       (node (ref C5) (pin 2))
-      (node (ref U2) (pin 2))
       (node (ref C9) (pin 1))
       (node (ref D1) (pin 2))
       (node (ref U1) (pin 4)))
@@ -538,7 +538,7 @@
       (node (ref C1) (pin 1)))
     (net (code 17) (name "Net-(D1-Pad1)")
       (node (ref D1) (pin 1))
-      (node (ref U2) (pin 3))
+      (node (ref U2) (pin 2))
       (node (ref R3) (pin 2)))
     (net (code 18) (name "Net-(C10-Pad1)")
       (node (ref J2) (pin 1))

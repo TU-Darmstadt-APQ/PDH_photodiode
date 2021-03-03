@@ -136,7 +136,7 @@ L Device:R_Small R3
 U 1 1 599DA3DF
 P 4500 1400
 F 0 "R3" H 4530 1420 50  0000 L CNN
-F 1 "10k" H 4530 1360 50  0000 L CNN
+F 1 "20k" H 4530 1360 50  0000 L CNN
 F 2 "footprints:R_0603_1608Metric_mod" H 4500 1400 50  0001 C CNN
 F 3 "" H 4500 1400 50  0001 C CNN
 F 4 "Susumu" H 4500 1400 60  0001 C CNN "MFN"
@@ -632,11 +632,11 @@ L Amplifier_Operational:LTC6229xDD U2
 U 1 1 60329D5A
 P 4600 2450
 F 0 "U2" H 4600 2815 50  0000 C CNN
-F 1 "LTC6269-10" H 4600 2724 50  0000 C CNN
+F 1 "LTC6269-10" H 4750 2650 50  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm" H 4600 2050 50  0001 C CNN
 F 3 "" H 4600 2450 50  0001 C CNN
 	1    4600 2450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:LTC6229xDD U2
@@ -691,7 +691,7 @@ L Device:R_Small R9
 U 1 1 6033E42E
 P 7300 3250
 F 0 "R9" H 7330 3270 50  0000 L CNN
-F 1 "10" H 7330 3210 50  0000 L CNN
+F 1 "20" H 7330 3210 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7300 3250 50  0001 C CNN
 F 3 "" H 7300 3250 50  0001 C CNN
 F 4 "Susumu" H 7300 3250 60  0001 C CNN "MFN"
@@ -704,7 +704,7 @@ L Device:R_Small R10
 U 1 1 6033ECA9
 P 7800 3050
 F 0 "R10" H 7830 3070 50  0000 L CNN
-F 1 "200" H 7830 3010 50  0000 L CNN
+F 1 "180" H 7830 3010 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 3050 50  0001 C CNN
 F 3 "" H 7800 3050 50  0001 C CNN
 F 4 "Susumu" H 7800 3050 60  0001 C CNN "MFN"
@@ -907,11 +907,9 @@ Text Notes 8100 3650 0    60   ~ 0
 Use C8 (and R8) and C10 (and R4)\nfor optional low pass filtering.
 Text Notes 2550 3750 0    60   ~ 0
 The footprint pad size for D1 and R3 has been reduced\nin order to reduce parasitic capacitance. Do not use too much solder paste  \nand clean carefully after assembly.\n
-Text Notes 3500 1200 0    60   ~ 0
-See README for alternative gain (R3)
 Wire Wire Line
 	4500 2800 4850 2800
-NoConn ~ 4600 2650
+NoConn ~ 4600 2250
 NoConn ~ 7850 2750
 Text Notes 6300 900  0    60   ~ 0
 Use C1 (and R11) for \noptional low pass filtering.
