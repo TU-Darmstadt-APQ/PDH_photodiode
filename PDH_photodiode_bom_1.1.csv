@@ -1,0 +1,32 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFN,PN,Config
+1,"Unpolarized capacitor, small symbol",C_Small,C9 C12,100n,C_0603_1608Metric,2,,Wurth Electronics,885012206071,
+2,"Unpolarized capacitor, small symbol",C_Small,C3 C4 C7,10n,C_0603_1608Metric,3,,Murata Electronics,GRM1885C1H103JA01D,
+3,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C5 C6,10u,C_1210_3225Metric,4,,Taiyo Yuden,UMR325AC7106MM-P,
+4,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J2,AC Out,SMA_Amphenol_132203-12_Horizontal,1,,Amphenol,901-143-6RFX,
+5,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J3,DC Out,SMA_Amphenol_901-144_Vertical,1,,Amphenol,901-144,
+6,"Resistor, small symbol",R_Small,R8,0,R_0603_1608Metric,1,,Vishay/Beyschlag,MCT06030Z0000ZP500,
+7,"Resistor, small symbol",R_Small,R5 R6,100k,R_0603_1608Metric,2,~,Susumu,RR0816P-104-D,
+8,"Resistor, small symbol",R_Small,R2 R7,105k,R_0603_1608Metric,2,~,Susumu,RR0816P-1053-D-03D,
+9,"Resistor, small symbol",R_Small,R10,180,R_0603_1608Metric,1,,Susumu,RR0816P-181-D,
+10,"Resistor, small symbol",R_Small,R1,1k,R_0603_1608Metric,1,,Yageo,RT0603DRE071KL,
+11,"Resistor, small symbol",R_Small,R9,20,R_0603_1608Metric,1,,Susumu,RR0816Q-200-D,
+12,"Resistor, small symbol",R_Small,R3,20k,R_0603_1608Metric_mod,1,,Susumu,RR0816P-203-D,
+13,"Resistor, small symbol",R_Small,R4 R11,49.9,R_1206_3216Metric,2,,Yageo,RT1206FRE0749R9L,
+14,"150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, Adjustable Output, DFN-14",LT3032,U1,LT3032,Linear_DE14MA,1,https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf,Analog Devices,LT3032EDE#PBF,
+15,"Low Distortion Rail-to-Rail Output Op Amps with Shutdown, DFN-10",LTC6229xDD,U2,LTC6269-10,DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf,Analog Devices,LTC6269HDD-10#PBF,
+
+
+
+
+
+Component Groups:,21
+Component Count:,32
+Fitted Components:,24
+Number of PCBs:,1
+Total components:,24
+Schematic Version:,1.1
+Schematic Date:,2021-02-19
+PCB Variant:,[u'default']
+BoM Date:,22.08.2021 23:14:52
+Schematic Source:,C:\Users\Tilman Preuschoff\Documents\GitHub\PDH_photodiode\PDH_photodiode.sch
+KiCad Version:,Eeschema (5.1.9)-1
