@@ -3,7 +3,7 @@ Component,Quantity Per PCB,References,Value,MFN,PN,Description,Footprint
 2,3,C3-C4 C7,10n,Murata Electronics,GRM1885C1H103JA01D,"Unpolarized capacitor, small symbol",C_0603_1608Metric
 3,4,C1-C2 C5-C6,10u,Taiyo Yuden,UMR325AC7106MM-P,"Unpolarized capacitor, small symbol",C_1210_3225Metric
 4,1,J2,AC Out,Amphenol,901-143-6RFX,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",SMA_Amphenol_132203-12_Horizontal
-5,1,J3,DC Out,Amphenol,901-144,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",SMA_Amphenol_901-144_Vertical
+5,1,J3,DC Out,Amphenol,901-144-8RFX,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",SMA_Amphenol_901-144_Vertical
 6,4,R2 R5-R7,100k,Susumu,RR0816P-104-D,"Resistor, small symbol",R_0603_1608Metric
 7,1,R10,180,Susumu,RR0816P-181-D,"Resistor, small symbol",R_0603_1608Metric
 8,1,R1,1k,Yageo,RT0603DRE071KL,"Resistor, small symbol",R_0603_1608Metric
@@ -25,7 +25,6 @@ Number of PCBs:,1
 Total components:,26
 Schematic Version:,1.2
 Schematic Date:,2021-09-01
-PCB Variant:,[u'default']
-BoM Date:,01.09.2021 16:00:20
-Schematic Source:,C:\Users\Tilman Preuschoff\Documents\GitHub\PDH_photodiode\PDH_photodiode.sch
-KiCad Version:,Eeschema (5.1.9)-1
+BoM Date:,07.09.2021 10:20:56
+Schematic Source:,C:\Users\Scope\Documents\GitHub\PDH_photodiode\PDH_photodiode.sch
+KiCad Version:,Eeschema (5.1.10)-1
