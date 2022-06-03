@@ -6,8 +6,8 @@
 
   (title_block
     (title "PDH photodiode")
-    (date "2021-09-01")
-    (rev "1.2")
+    (date "2022-06-03")
+    (rev "1.2b")
     (company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )
