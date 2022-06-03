@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.1)*
-G04 #@! TF.CreationDate,2022-06-03T12:33:57+02:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.5)*
+G04 #@! TF.CreationDate,2022-06-03T12:50:17+02:00*
 G04 #@! TF.ProjectId,PDH_photodiode,5044485f-7068-46f7-946f-64696f64652e,1.3*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Legend,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX45Y45*%
 G04 Gerber Fmt 4.5, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.1)) date 2022-06-03 12:33:57*
+G04 Created by KiCad (PCBNEW (6.0.5)) date 2022-06-03 12:50:17*
 %MOMM*%
 %LPD*%
 G01*
