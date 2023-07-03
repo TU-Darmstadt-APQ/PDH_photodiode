@@ -45,7 +45,35 @@ The LTC6268-10/6269-10 is an ultra-low input bias operational amplifier. The  [d
   - If the TIA is stable for a given input capacitance, a lower bound for the bandwidth is given by: 
     <img src="https://render.githubusercontent.com/render/math?math=f_c \ge \frac{9}{2\pi R_f C_{in}}">
 
+
+
 Analog Devices photodiode wizard
 --------------------
+
 The web tool [https://tools.analog.com/en/photodiode/](https://tools.analog.com/en/photodiode/) is useful when designing  photodetectors based on TIAs. Use the tool to estimate noise performance and frequency response, if it is necessary to modify the circuit.
 
+
+
+
+Versions
+--------------------
+
+`master` 	Standard version for Si-photodiode in TO-case, e.g. Hamamatsu S9055-01
+
+`SMD_photodiode`	Version for Excelitas C30617L-100 InGaAs-photodiode. For applications between 960 nm and 1700 nm.
+
+
+
+Related work
+--------------------
+
+T. Preuschoff, *Laser Technologies for Applications in Quantum Information Science*, Ph.D. thesis, TU Darmstadt, 2023, [https://tuprints.ulb.tu-darmstadt.de/23242/](https://tuprints.ulb.tu-darmstadt.de/23242/)
+
+
+
+
+License
+--------------------
+
+This work is released under the CERN OHL v.1.2
+See www.ohwr.org/licenses/cern-ohl/v1.2 or the included LICENSE file for more information.
