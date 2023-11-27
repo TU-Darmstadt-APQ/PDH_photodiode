@@ -27,23 +27,23 @@ Wideband TIAs using LTC6268-10/6269-10
 The LTC6268-10/6269-10 is an ultra-low input bias operational amplifier. The  [datasheet](LTC6268-10/6269-10) (p. 12-14) gives some useful information for TIA applications. The main ideas are cited here:
 
 - The maximal achievable bandwidth is:
-  <img src="https://render.githubusercontent.com/render/math?math=f_c = \sqrt{\frac{GBW}{2\pi R_f C_{in}}} \le 195\,\text{MHz}">
+  $$f_c = \sqrt{\frac{GBW}{2\pi R_f C_{in}}} \le 195\text{ MHz}$$
   Where GBW is the gain bandwidth product of the op amp (4 GHz), R<sub>f</sub> is the feedback resistance (default: 20kOhm), and C<sub>in</sub> is the total capacitance at the inverting input of the op amp. I.e. the input capacitance of the op amp (0.45 pF), the capacitance of the photodiode (at the given reverse voltage, ~0.4pF), and some unknown but not negligible parasitic capacitance of the circuit (e.g. soldering pads). Hence:
    - Use a low capacitance photodiode
    - The fundamental bandwidth limit scales as R<sub>f</sub><sup>-1/2</sup>
 
 - Every tiny parasitic feedback capacitance C<sub>f</sub> reduces the actual bandwidth to:
-  <img src="https://render.githubusercontent.com/render/math?math=f_c = \frac{1}{2\pi R_f C_{f}}">
+  $$f_c = \frac{1}{2\pi R_f C_{f}}$$
   For the example above this is the case for C<sub>f</sub> as small as 40fF.
   - The actual bandwidth limit scales as R<sub>f</sub><sup>-1</sup> if C<sub>f</sub> is not negligible.
   - Reduce C<sub>f</sub> to a minimum.
 
 - The LTC6268-10/6269-10 is a decompensated amplifier. It is only stable for a noise gain above 10. For a TIA the relevant high frequency noise gain is given by the impedance of C<sub>f</sub> and C<sub>in</sub>. Resulting in the condition:
-  <img src="https://render.githubusercontent.com/render/math?math=\frac{C_{in}%2b C_f}{C_f}\ge 10">
+  $$\frac{C_{in}%2b C_f}{C_f}\ge 10$$
   This means:
   - If the TIA is not stable, try to reduce C<sub>f</sub> or increase C<sub>in</sub> (accepting a reduction of the bandwidth)
   - If the TIA is stable for a given input capacitance, a lower bound for the bandwidth is given by: 
-    <img src="https://render.githubusercontent.com/render/math?math=f_c \ge \frac{9}{2\pi R_f C_{in}}">
+    $$f_c \ge \frac{9}{2\pi R_f C_{in}}$$
 
 
 
