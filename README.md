@@ -1,3 +1,5 @@
+[![Build manufacturing files](https://github.com/TU-Darmstadt-APQ/PDH_photodiode/actions/workflows/ci.yml/badge.svg)](https://github.com/TU-Darmstadt-APQ/PDH_photodiode/actions/workflows/ci.yml)
+
 PDH photodiode
 ===================
 Wideband photodetector based on a Si-PIN photodiode ([Hamamatsu S9055-01](https://www.hamamatsu.com/resources/pdf/ssd/s9055_series_kpin1065e.pdf)) and a transimpedance amplifier (TIA). The detector features an additional non-inverting (voltage) amplifier stage AC-coupled to the TIA designed for the purpose of Pound-Drever-Hall (PDH) laser locking.
@@ -20,7 +22,26 @@ Wideband photodetector based on a Si-PIN photodiode ([Hamamatsu S9055-01](https:
 
 - Optional: Low-pass filters at DC out (1. order) and AC out (2x 1. order)
 
-  
+Design Files
+------------------
+The design files can be found on the [releases](../../releases) page and include the following resources:
+
+- Schematics as a PDF
+- Gerber files
+- Pick & place position files
+- Bill of materials as a CSV file and also as an interactive HTML version
+
+The latest revision of those files can be found [here](../../releases/latest).
+
+
+Versions
+--------------------
+
+`master` 	Standard version for Si-photodiode in TO-case, e.g. Hamamatsu S9055-01
+
+`SMD_photodiode`	Version for Excelitas C30617L-100 InGaAs-photodiode. For applications between 960 nm and 1700 nm.
+
+
 
 Wideband TIAs using LTC6268-10/6269-10
 --------------------
@@ -51,17 +72,6 @@ Analog Devices photodiode wizard
 --------------------
 
 The web tool [https://tools.analog.com/en/photodiode/](https://tools.analog.com/en/photodiode/) is useful when designing  photodetectors based on TIAs. Use the tool to estimate noise performance and frequency response, if it is necessary to modify the circuit.
-
-
-
-
-Versions
---------------------
-
-`master` 	Standard version for Si-photodiode in TO-case, e.g. Hamamatsu S9055-01
-
-`SMD_photodiode`	Version for Excelitas C30617L-100 InGaAs-photodiode. For applications between 960 nm and 1700 nm.
-
 
 
 Related work
