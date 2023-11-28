@@ -2,7 +2,7 @@ PDH photodiode
 ===================
 Wideband photodetector based on a Si-PIN photodiode ([Hamamatsu S9055-01](https://www.hamamatsu.com/resources/pdf/ssd/s9055_series_kpin1065e.pdf)) and a transimpedance amplifier (TIA). The detector features an additional non-inverting (voltage) amplifier stage AC-coupled to the TIA designed for the purpose of Pound-Drever-Hall (PDH) laser locking.
 
-![PDH photodiode](PDH_photodiode.png)
+![PDH photodiode](img/PDH_photodiode.png)
 
 - Supply:  ±5 V (typ. 40mA)
 
