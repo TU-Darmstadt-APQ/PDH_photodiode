@@ -9,7 +9,7 @@ preflight:
   filters:
     - filter: 'Custom 3D models were added to the footprints'
       error: lib_footprint_mismatch
-      regex: 'Package_DFN_QFN:Linear_DE14MA|Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm|Connector_Coaxial:SMA_Amphenol_901-144_Vertical|Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal'
+      regex: 'Linear_DE14MA|DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm|SMA_Amphenol_901-144_Vertical|SMA_Amphenol_132203-12_Horizontal'
     - filter: 'Feedback pin of U3 is declared as an output'
       error: pin_to_pin
       regex: 'Symbol U3 Pin 1'
