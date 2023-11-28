@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Custom_logos)(type Legacy)(uri ${KIPRJMOD}/libraries/Custom_logos.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "Custom_logos")(type "KiCad")(uri "${KIPRJMOD}/libraries/Custom_logos.kicad_sym")(options "")(descr ""))
 )
