@@ -4,21 +4,26 @@ PDH photodiode
 ===================
 Wideband photodetector based on a Si-PIN photodiode ([Hamamatsu S9055-01](https://www.hamamatsu.com/resources/pdf/ssd/s9055_series_kpin1065e.pdf)) and a transimpedance amplifier (TIA). The detector features an additional non-inverting (voltage) amplifier stage AC-coupled to the TIA designed for the purpose of Pound-Drever-Hall (PDH) laser locking.
 
+An alternative version with [Excelitas C30617L-100](https://www.excelitas.com/de/product/c30617l-100-ingaas-pin-100um-ceramic-smd) InGaAs photodiode for applications between 960 nm and 1700 nm can be found [here](https://github.com/TU-Darmstadt-APQ/PDH_photodiode_SMD). All specs of the amplifiers hold for this version as well accounting for the significantly increased sensitivity of the photodiode.
+
 ![PDH photodiode](img/PDH_photodiode.png)
 
 - Supply:  ±5 V (typ. 40mA)
 
 - Max. output : 2.5 V @high-Z / 1.25 V @50 Ω
 
-- DC sensitivity: ~7 V/mW @ 780 nm
-
-- NEP: < 25 pW/Hz<sup>1/2</sup>  @ 780 nm (0.1 - 50 MHz: ~2.5 pW/Hz<sup>1/2</sup>)
-
 - TIA gain: 20 kΩ
 
 - AC gain: 10 - 25 (default: 10)
-
 - Bandwidth: ~160 MHz
+- DC sensitivity 
+
+   - ~7 V/mW @ 780 nm (S9055-01)
+   - ~13 V/mW @ 960 nm (C30617L-100)
+- Noise equivalent power (NEP) 
+   - < 25 pW/Hz<sup>1/2</sup>  @ 780 nm (0.1 - 50 MHz: ~2.5 pW/Hz<sup>1/2</sup>) for S9055-01
+   - < 14 pW/Hz<sup>1/2</sup>  @ 780 nm (0.1 - 50 MHz: ~1.4 pW/Hz<sup>1/2</sup>) for S9055-01
+
 
 - Optional: Low-pass filters at DC out (1. order) and AC out (2x 1. order)
 
@@ -32,14 +37,6 @@ The design files can be found on the [releases](../../releases) page and include
 - Bill of materials as a CSV file and also as an interactive HTML version
 
 The latest revision of those files can be found [here](../../releases/latest).
-
-
-Versions
---------------------
-
-`master` 	Standard version for Si-photodiode in TO-case, e.g. Hamamatsu S9055-01
-
-`SMD_photodiode`	Version for Excelitas C30617L-100 InGaAs-photodiode. For applications between 960 nm and 1700 nm.
 
 
 
